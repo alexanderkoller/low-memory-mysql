@@ -34,6 +34,10 @@ pid-file=/var/run/mysqld/mysqld.pid
 #### Reduces the memory usage of MySQL by setting values to their minimum
 #### http://www.tocker.ca/2014/03/10/configuring-mysql-to-use-minimal-memory.html
 
+#### Tip: Doing this is hacky. Optimizing values will result in better performance.
+#### If you have time consider a script like MySQLTuner to start learning about optimization 
+#### See: https://github.com/major/MySQLTuner-perl. [ And change: performance_schema = on ]
+
 ## Global values
 innodb_buffer_pool_size=5M          #MySQL 8 default: 134217728 (128M)
 innodb_log_buffer_size=256K         #MySQL 8 default: 16777216 (16M)
