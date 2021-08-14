@@ -61,6 +61,6 @@ innodb_sort_buffer_size=64K         #MySQL 8 default: 1048576 (1M)
 binlog_cache_size=4K                #MySQL 8 default: 32768 (32K)
 binlog_stmt_cache_size=4K           #MySQL 8 default: 32768 (32K)
 
-#### from https://mariadb.com/de/node/579
+#### Turn off monitoring. Reduces memory usage
 performance_schema = off
 
