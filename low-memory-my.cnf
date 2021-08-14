@@ -31,7 +31,7 @@ log-error=/var/log/mysqld.log
 pid-file=/var/run/mysqld/mysqld.pid
 
 
-#### These optimize the memory use of MySQL
+#### Reduces the memory usage of MySQL by setting values to their minimum
 #### http://www.tocker.ca/2014/03/10/configuring-mysql-to-use-minimal-memory.html
 
 ## Global values
